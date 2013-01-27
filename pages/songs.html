@@ -1,0 +1,58 @@
+<html>
+	<head>
+	    <meta charset="utf-8"/>
+	    <title>MAF</title>
+	    <link rel="stylesheet" href="../app/css/app.css" media="screen"/>
+	    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css" media="screen"/>
+	    <link rel="stylesheet" href="../vendor/css/bootstrap-responsive.min.css" media="screen">
+	    <script type="text/javascript" src="../vendor/js/jquery-1.8.3.js"></script>
+	    <script type="text/javascript" src="../vendor/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="../vendor/js/handlebars.js"></script>
+	    <script type="text/javascript" src="../vendor/js/ember-latest.js"></script>
+	    <script type="text/javascript" src="../app/js/app.js"></script>
+	    <script type="text/javascript" src="../app/js/app-films-data.js"></script>
+	</head>
+	<body>
+		<div style="width:100%;">
+			<div class="header">
+				<div class="header-img" style="height:25%;min-height:180px;">
+					<img style="width:100%;height:100%" src="../app/img/maf-header.jpg"/>
+				</div>
+				<div class="nav-div" style="padding-left:50px;padding-right:50px;">
+					<ul class="nav nav-pills" style="">
+						<li><a href="home.html">Home</a></li>
+						<li><a href="films.html">Films</a></li>
+						<li class="active"><a href="#">Songs</a></li>
+						<li><a href="news.html">News</a></li>
+					</ul>
+					<!--div class="i18n" style="float:right;"><a href="#">हिंदी</a></div-->
+				</div>
+				<div class="progress" style="margin-top:-13px;margin-bottom:-5px;">
+					<div class="bar" style="width: 100%;height:5px;"></div>
+				</div>
+			</div>
+			<div style="width:95%;text-align:center;padding-left:30px;padding-right:30px;">
+				<div class="tabbable tabs-left">
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a href="#film-video-tab" data-toggle="tab">Film Video</a></li>
+				    <li><a href="#film-audio-tab" data-toggle="tab">Film Audio</a></li>
+				    <li><a href="#album-video-tab" data-toggle="tab">Album Video</a></li>
+				    <li><a href="#album-audio-tab" data-toggle="tab">Album Audio</a></li>
+				  </ul>
+				  <div class="tab-content">
+				    <div class="tab-pane active" id="film-video-tab">
+				    </div>
+				    <div class="tab-pane" id="film-audio-tab">
+				    </div>
+				    <div class="tab-pane" id="album-video-tab">
+				    </div>
+				    <div class="tab-pane" id="album-audio-tab">
+				    </div>
+				  </div>
+				</div>
+			</div>
+			<div class="footer">
+			</div>
+		</div>
+	</body>
+</html>
