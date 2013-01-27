@@ -56,7 +56,7 @@ MAF.Films = [
 			ind:'पप्पू परदेशी'
 		},
 		date: '2012',
-		posterUrl: '../app/img/nkt_poster.jpg',
+		posterUrl: '../app/img/no_poster.jpg',
 		promoUrl: 'http://www.youtube.com/embed/2N1q9dgg60M'
 	}),
 	Ember.Object.create({
