@@ -1,0 +1,20 @@
+.film-mini-div{
+	min-height:315px !important;
+}
+.film-detail{
+	width:45%;
+	float:left;
+	word-wrap:break-word;
+}
+.film-mini-img{
+	width:216px;
+	height:319px;
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+}
+.film-mini-promo{
+	height:319px;
+	float:right;
+	width:49%;
+}
