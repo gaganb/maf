@@ -12,13 +12,13 @@ MAF.Films = [
 		},
 		directors:
 		{
-			eng:'Ram Awadh Patel',
-			ind:'राम अवध पटेल'
+			eng:'Bharath Gupta',
+			ind:'भरथ गुप्ता'
 		},
 		writers:
 		{
-			eng:'Dr. L. P. Baranwal',
-			ind:'डॉ एल पी बरनवाल'
+			eng:'Om Prakash Sharma',
+			ind:'ॐ प्रकाश शर्मा'
 		},
 		starss:
 		{
@@ -42,13 +42,13 @@ MAF.Films = [
 		},
 		directors:
 		{
-			eng:'Ram Awadh Patel',
-			ind:'राम अवध पटेल'
+			eng:'',
+			ind:''
 		},
 		writers:
 		{
-			eng:'Dr. L. P. Baranwal',
-			ind:'डॉ एल पी बरनवाल'
+			eng:'',
+			ind:''
 		},
 		starss:
 		{
@@ -82,8 +82,8 @@ MAF.Films = [
 		},
 		starss:
 		{
-			eng:'Pappu Pardeshi, Prachi Srivastava',
-			ind:'पप्पू परदेशी, प्राची श्रीवास्तवा'
+			eng:'Pappu Pardeshi, Prachi Srivastava, Ajay Singh',
+			ind:'पप्पू परदेशी, प्राची श्रीवास्तवा, अजय सिंह'
 		},
 		date: '2010',
 		posterUrl: '../app/img/dckd_poster.png',
