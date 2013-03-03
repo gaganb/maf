@@ -10,7 +10,13 @@
 	    <script type="text/javascript" src="../vendor/js/handlebars.js"></script>
 	    <script type="text/javascript" src="../vendor/js/ember-latest.js"></script>
 	    <script type="text/javascript" src="../app/js/app.js"></script>
-	    <script type="text/javascript" src="../app/js/app-films-data.js"></script>
+	    <script type="text/javascript" src="../app/js/app-songs-data.js"></script>
+	    <script type="text/x-handlebars" data-template-name="song-mini">
+			<div class="row-fluid">
+			  <div class="span4" style="background-color: lavender;"></div>
+			  <div class="span8" style="background-color: yellow;"></div>
+			</div>
+	    </script>
 	</head>
 	<body>
 		<div style="width:100%;">
@@ -41,6 +47,11 @@
 				  </ul>
 				  <div class="tab-content">
 				    <div class="tab-pane active" id="film-video-tab">
+				    	<script type="text/x-handlebars">
+							{{#each song in MAF.FilmVideoSongs}}
+								{{view MAF.SongMiniView contentBinding="song"}}
+							{{/each}}
+						</script>
 				    </div>
 				    <div class="tab-pane" id="film-audio-tab">
 				    </div>

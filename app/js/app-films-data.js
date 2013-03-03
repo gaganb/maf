@@ -87,6 +87,6 @@ MAF.Films = [
 		},
 		date: '2010',
 		posterUrl: '../app/img/dckd_poster.png',
-		promoUrl: 'http://www.youtube.com/embed/2N1q9dgg60M'
+		promoUrl: 'http://www.youtube.com/embed/yfnzaeSBPeM'
 	})
 ];
