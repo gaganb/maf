@@ -18,3 +18,13 @@
 	float:right;
 	width:49%;
 }
+.film-mini-info-spn{
+	line-height: 25px;
+}
+.song-divider{
+	height: 1px;
+	margin: 9px 1px;
+	overflow: hidden;
+	background-color: #E5E5E5;
+	border-bottom: 1px solid white;
+}

@@ -21,9 +21,16 @@ MAF.FilmVideoSongs = [
 			ind:'पप्पू परदेशी'
 		},
 		date: '2010',
-		posterUrl: '../app/img/dckd_poster.png'
+		posterUrl: '../app/img/dckd_poster.png',
+		songs:
+			[
+			 Ember.Object.create({
+				 songTitle: "test song",
+				 downloadUrl: "#"
+			 })
+			]
 	})
-];
+]
 
 MAF.FilmAudioSongs = [
   	Ember.Object.create({
@@ -48,7 +55,14 @@ MAF.FilmAudioSongs = [
   			ind:'पप्पू परदेशी'
   		},
   		date: '2012',
-  		posterUrl: '../app/img/nkt_poster.jpg'
+  		posterUrl: '../app/img/nkt_poster.jpg',
+		songs:
+			[
+			 Ember.Object.create({
+				 songTitle: "test song",
+				 downloadUrl: "#"
+			 })
+			]
   	}),
   	Ember.Object.create({
   		titles:
@@ -72,9 +86,16 @@ MAF.FilmAudioSongs = [
   			ind:'पप्पू परदेशी'
   		},
   		date: '2012',
-  		posterUrl: '../app/img/nkt_poster.jpg'
-  	}
-];
+  		posterUrl: '../app/img/nkt_poster.jpg',
+		songs:
+			[
+			 Ember.Object.create({
+				 songTitle: "test song",
+				 downloadUrl: "#"
+			 })
+			]
+  	})
+]
 
 MAF.AlbumVideoSongs = [
   	Ember.Object.create({
@@ -99,9 +120,16 @@ MAF.AlbumVideoSongs = [
   			ind:'पप्पू परदेशी'
   		},
   		date: '',
-  		posterUrl: '../app/img/no_poster.jpg'
+  		posterUrl: '../app/img/no_poster.jpg',
+		songs:
+			[
+			 Ember.Object.create({
+				 songTitle: "test song",
+				 downloadUrl: "#"
+			 })
+			]
   	})
-];
+]
 
 MAF.AlbumAudioSongs = [
 	Ember.Object.create({
@@ -126,6 +154,13 @@ MAF.AlbumAudioSongs = [
 			ind:'पप्पू परदेशी'
 		},
 		date: '',
-		posterUrl: '../app/img/no_poster.jpg'
+		posterUrl: '../app/img/no_poster.jpg',
+		songs:
+			[
+			 Ember.Object.create({
+				 songTitle: "test song",
+				 downloadUrl: "#"
+			 })
+			]
 	})
-];
+]
