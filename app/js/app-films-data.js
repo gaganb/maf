@@ -2,7 +2,7 @@ MAF.Films = [
 	Ember.Object.create({
 		titles:
 		{
-			eng:'Najariya Ke Teer',
+			eng:'Nazariya Ke Teer',
 			ind:'नजरिया के तीर'
 		},
 		producers:
