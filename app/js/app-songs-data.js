@@ -155,7 +155,7 @@ MAF.AlbumVideoSongs = [
   			eng:'Pappu Pardeshi',
   			ind:'पप्पू परदेशी'
   		},
-  		date: '',
+  		date: '2012',
   		posterUrl: '../app/img/no_poster.jpg',
 		songs:
 			[
@@ -201,7 +201,7 @@ MAF.AlbumAudioSongs = [
 			eng:'Pappu Pardeshi',
 			ind:'पप्पू परदेशी'
 		},
-		date: '',
+		date: '2012',
 		posterUrl: '../app/img/no_poster.jpg',
 		songs:
 			[
@@ -247,20 +247,20 @@ MAF.AlbumAudioSongs = [
 		},
 		singers:
 		{
-			eng:'Not Available',
+			eng:'Pankaj, Panelal, Mustafa, Gautam',
 			ind:''
 		},
 		lyrics:
 		{
-			eng:'Not Available',
+			eng:'Sunil, Anish, Dharmendar, Mustafa, Gautam, Kiran Yadav',
 			ind:''
 		},
 		music:
 		{
-			eng:'Not Available',
+			eng:'Pappu Pardeshi',
 			ind:''
 		},
-		date: '',
+		date: '2013',
 		posterUrl: '../app/img/no_poster.jpg',
 		songs:
 			[
@@ -279,6 +279,26 @@ MAF.AlbumAudioSongs = [
 			 Ember.Object.create({
 				 songTitle: 'Jila Deoria Mein',
 				 downloadUrl: '../app/fs/songs/album/audio/jila_deoria_mein/jila_deoria_mein.mp3'
+			 }),
+			 Ember.Object.create({
+				 songTitle: 'Aai Ho Dada',
+				 downloadUrl: '../app/fs/songs/album/audio/jila_deoria_mein/aai_ho_dada.mp3'
+			 }),
+			 Ember.Object.create({
+				 songTitle: 'Aai Ho Madam',
+				 downloadUrl: '../app/fs/songs/album/audio/jila_deoria_mein/aai_ho_madam.mp3'
+			 }),
+			 Ember.Object.create({
+				 songTitle: 'Angregi Mein',
+				 downloadUrl: '../app/fs/songs/album/audio/jila_deoria_mein/angregi_mein.mp3'
+			 }),
+			 Ember.Object.create({
+				 songTitle: 'Badu Hajariya',
+				 downloadUrl: '../app/fs/songs/album/audio/jila_deoria_mein/badu_ajariya.mp3'
+			 }),
+			 Ember.Object.create({
+				 songTitle: 'Rasguniya',
+				 downloadUrl: '../app/fs/songs/album/audio/jila_deoria_mein/rasguniya.mp3'
 			 })
 			]
 	})
