@@ -294,7 +294,7 @@ MAF.AlbumAudioSongs = [
 			 }),
 			 Ember.Object.create({
 				 songTitle: 'Badu Hajariya',
-				 downloadUrl: '../app/fs/songs/album/audio/jila_deoria_mein/badu_ajariya.mp3'
+				 downloadUrl: '../app/fs/songs/album/audio/jila_deoria_mein/badu_hajariya.mp3'
 			 }),
 			 Ember.Object.create({
 				 songTitle: 'Rasguniya',
